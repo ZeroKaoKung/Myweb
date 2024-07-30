@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="employee.xsl"?>
+<!DOCTYPE bigemp [
+<!ELEMENT bigemp (emp, emp, emp, emp, emp)>
+<!ELEMENT emp (idemp, nameemp, position, duty, salary)>
+<!ELEMENT idemp (#PCDATA)>
+<!ELEMENT nameemp (#PCDATA)>
+<!ELEMENT position (#PCDATA)>
+<!ELEMENT duty (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
+
+<!ENTITY pro "PRODUCT">
+<!ENTITY com "จากร้าน ADVICE">
+
+]>
+<bigemp>
+    <emp>
+        <idemp>001</idemp>
+        <nameemp>อรพรรณ พงศ์สวัสดิ์</nameemp>
+        <position>ผู้จัดการฝ่ายการตลาด</position>
+        <duty>วางแผนกลยุทธ์การตลาด, จัดการทีมการตลาด, วิเคราะห์ตลาดและคู่แข่ง</duty>
+        <salary>80,000 บาท</salary>
+    </emp>
+    <emp>
+        <idemp>002</idemp>
+        <nameemp>วรธิดา สกุลเจริญ</nameemp>
+        <position>เจ้าหน้าที่ทรัพยากรบุคคล</position>
+        <duty>การสรรหาพนักงาน, การจัดการข้อมูลพนักงาน, การดูแลสวัสดิการ</duty>
+        <salary>45,000 บาท</salary>
+    </emp>
+    <emp>
+        <idemp>003</idemp>
+        <nameemp>สันติภาพ เจริญสุข</nameemp>
+        <position>วิศวกรระบบ</position>
+        <duty>ออกแบบและพัฒนาระบบคอมพิวเตอร์, ตรวจสอบและแก้ไขปัญหาระบบ</duty>
+        <salary>60,000 บาท</salary>
+    </emp>
+    <emp>
+        <idemp>004</idemp>
+        <nameemp>พิชญ์ ภัทรรัตน์</nameemp>
+        <position>ผู้ช่วยฝ่ายขาย</position>
+        <duty>ช่วยเหลือการขาย, ติดต่อกับลูกค้า, จัดการเอกสารการขาย</duty>
+        <salary>30,000 บาท</salary>
+    </emp>
+    <emp>
+        <idemp>005</idemp>
+        <nameemp>ธนากร สวัสดิ์ศิริ</nameemp>
+        <position>นักบัญชี</position>
+        <duty>บันทึกและตรวจสอบบัญชี, จัดทำรายงานการเงิน, จัดเตรียมเอกสารภาษี</duty>
+        <salary>50,000 บาท</salary>
+    </emp>
+</bigemp>

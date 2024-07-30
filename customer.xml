@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="customer.xsl"?>
+<!DOCTYPE bigcustomer [
+<!ELEMENT bigcustomer (customer, customer, customer, customer, customer)>
+<!ELEMENT customer (idcus, namecus, email, tell, address)>
+<!ELEMENT idcus (#PCDATA)>
+<!ELEMENT namecus (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT tell (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+
+<!ENTITY pro "PRODUCT">
+<!ENTITY com "จากร้าน ADVICE">
+
+]>
+
+<bigcustomer>
+    <customer>
+        <idcus>001</idcus>
+        <namecus>คุณพิมพ์ชนก สุขสวัสดิ์</namecus>
+        <email>pimchanok.suk@gmail.com</email>
+        <tell>089-123-4567</tell>
+        <address>123/45 หมู่ 6 ซอยสุขุมวิท 55 แขวงคลองตันเหนือ เขตวัฒนา กรุงเทพฯ 10110</address>
+    </customer>
+    <customer>
+        <idcus>002</idcus>
+        <namecus>นายศิวกร บุญประเสริฐ</namecus>
+        <email>siwakorn.boon@example.com</email>
+        <tell>082-234-5678</tell>
+        <address>456/78 ถนนรัชดาภิเษก แขวงดินแดง เขตดินแดง กรุงเทพฯ 10400</address>
+    </customer>
+    <customer>
+        <idcus>003</idcus>
+        <namecus>นางสาววิภา ทวีสุข</namecus>
+        <email>wipa.taveesuk@hotmail.com</email>
+        <tell>091-345-6789</tell>
+        <address>789/12 หมู่ 2 ถนนแจ้งวัฒนะ แขวงทุ่งสองห้อง เขตหลักสี่ กรุงเทพฯ 10210</address>
+    </customer>
+    <customer>
+        <idcus>004</idcus>
+        <namecus>คุณธนา สันติสุข</namecus>
+        <email>thana.santisuk@yahoo.com</email>
+        <tell>097-456-7890</tell>
+        <address>101/34 ซอยพหลโยธิน 45 แขวงลาดยาว เขตจตุจักร กรุงเทพฯ 10900</address>
+    </customer>
+    <customer>
+        <idcus>005</idcus>
+        <namecus>นายภาณุพล เฟื่องฟู</namecus>
+        <email>panupol.fu@gmail.com</email>
+        <tell>085-567-8901</tell>
+        <address>202/56 หมู่ 4 ถนนสาทรใต้ แขวงทุ่งมหาเมฆ เขตสาทร กรุงเทพฯ 10120</address>
+    </customer>
+</bigcustomer>

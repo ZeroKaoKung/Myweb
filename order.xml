@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="order.xsl"?>
+<!DOCTYPE bigorder [
+<!ELEMENT bigorder (order, order, order, order, order)>
+<!ELEMENT order (idor, namecusor, orpro, quantitypur, paid)>
+<!ELEMENT idor (#PCDATA)>
+<!ELEMENT namecusor (#PCDATA)>
+<!ELEMENT orpro (#PCDATA)>
+<!ELEMENT quantitypur (#PCDATA)>
+<!ELEMENT paid (#PCDATA)>
+
+<!ENTITY pro "PRODUCT">
+<!ENTITY com "จากร้าน ADVICE">
+
+]>
+<bigorder>
+    <order>
+        <idor>001</idor>
+        <namecusor>คุณพิมพ์ชนก สุขสวัสดิ์</namecusor>
+        <orpro>INTEL CORE I5-10400F</orpro>
+        <quantitypur>1ชิ้น</quantitypur>
+        <paid>3,570</paid>
+    </order>
+    <order>
+        <idor>002</idor>
+        <namecusor>นายศิวกร บุญประเสริฐ</namecusor>
+        <orpro>INTEL CORE I7-11700</orpro>
+        <quantitypur>1ชิ้น</quantitypur>
+        <paid>8,080</paid>
+    </order>
+    <order>
+        <idor>003</idor>
+        <namecusor>นางสาววิภา ทวีสุข</namecusor>
+        <orpro>INTEL CORE I5-11400F</orpro>
+        <quantitypur>1ชิ้น</quantitypur>
+        <paid>4,367</paid>
+    </order>
+    <order>
+        <idor>004</idor>
+        <namecusor>คุณธนา สันติสุข</namecusor>
+        <orpro>INTEL CORE I3-10100F(NEXT)</orpro>
+        <quantitypur>1ชิ้น</quantitypur>
+        <paid>2,275</paid>
+    </order>
+    <order>
+        <idor>005</idor>
+        <namecusor>นายภาณุพล เฟื่องฟู</namecusor>
+        <orpro>INTEL CORE I3-10100(NEXT)</orpro>
+        <quantitypur>1ชิ้น</quantitypur>
+        <paid>3,550</paid>
+    </order>
+</bigorder>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="pro.xsl"?>
+
+<!DOCTYPE bigproduct [
+<!ELEMENT bigproduct (product, product, product, product, product)>
+<!ELEMENT product (id, namepro, details, price, quantity)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT namepro (#PCDATA)>
+<!ELEMENT details (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+
+<!ENTITY pro "PRODUCT">
+<!ENTITY com "จากร้าน ADVICE">
+
+]>
+
+<bigproduct>
+    <product>
+        <id>001</id>
+        <namepro>INTEL CORE I5-10400F</namepro>
+        <details>Socket 1200</details>
+        <price>3,570</price>
+        <quantity>10</quantity>
+    </product>
+    <product>
+        <id>002</id>
+        <namepro>INTEL CORE I7-11700</namepro>
+        <details>Socket 1200</details>
+        <price>8,080</price>
+        <quantity>10</quantity>
+    </product>
+    <product>
+        <id>003</id>
+        <namepro>INTEL CORE I5-11400F</namepro>
+        <details>Socket 1200</details>
+        <price>4,367</price>
+        <quantity>10</quantity>
+    </product>
+    <product>
+        <id>004</id>
+        <namepro>INTEL CORE I3-10100F(NEXT)</namepro>
+        <details>Socket 1200</details>
+        <price>2,275</price>
+        <quantity>10</quantity>
+    </product>
+    <product>
+        <id>005</id>
+        <namepro>INTEL CORE I3-10100(NEXT)</namepro>
+        <details>Socket 1200</details>
+        <price>3,550</price>
+        <quantity>10</quantity>
+    </product>
+</bigproduct>
